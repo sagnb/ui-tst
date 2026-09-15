@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-relis-navy: #2a3f54;
+  --color-relis-slate: #34495e;
+  --color-relis-teal: #1abb9c;
+  --color-relis-blue: #3498db;
+  --color-relis-purple: #9b59b6;
+  --color-relis-red: #e74c3c;
+  --color-relis-orange: #f39c12;
+  --color-relis-bg: #f7f7f7;
+  --color-relis-muted: #73879c;
+}
+
+body {
+  background: var(--color-relis-bg);
+  color: #2a3f54;
+}
