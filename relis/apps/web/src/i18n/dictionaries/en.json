@@ -1,0 +1,42 @@
+{
+  "layout": {
+    "appName": "ReLiS",
+    "nav": {
+      "dashboard": "Dashboard",
+      "screening": "Screening",
+      "qualityAssessment": "Quality Assessment",
+      "dataExtraction": "Data Extraction",
+      "reporting": "Reports"
+    },
+    "logOut": "Log Out"
+  },
+  "home": {
+    "greeting": "Hello, {name}",
+    "statLabels": {
+      "allPapers": "All papers",
+      "processedPapers": "Processed papers",
+      "pendingPapers": "Pending papers",
+      "assignedToMe": "Assigned to me",
+      "excludedPapers": "Excluded papers"
+    },
+    "workflowsTitle": "Review workflows",
+    "workflows": {
+      "screening": {
+        "label": "Screening",
+        "description": "Include or exclude papers based on the protocol criteria."
+      },
+      "qualityAssessment": {
+        "label": "Quality Assessment",
+        "description": "Assess the methodological quality of the included studies."
+      },
+      "dataExtraction": {
+        "label": "Data Extraction",
+        "description": "Extract structured data from each primary study."
+      },
+      "reporting": {
+        "label": "Reports",
+        "description": "Track statistics and the overall progress of the review."
+      }
+    }
+  }
+}
