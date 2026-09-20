@@ -1,0 +1,42 @@
+{
+  "layout": {
+    "appName": "ReLiS",
+    "nav": {
+      "dashboard": "Tableau de bord",
+      "screening": "Sélection",
+      "qualityAssessment": "Évaluation de la qualité",
+      "dataExtraction": "Extraction de données",
+      "reporting": "Rapports"
+    },
+    "logOut": "Déconnexion"
+  },
+  "home": {
+    "greeting": "Bonjour, {name}",
+    "statLabels": {
+      "allPapers": "Tous les articles",
+      "processedPapers": "Articles traités",
+      "pendingPapers": "Articles en attente",
+      "assignedToMe": "Assignés à moi",
+      "excludedPapers": "Articles exclus"
+    },
+    "workflowsTitle": "Flux de révision",
+    "workflows": {
+      "screening": {
+        "label": "Sélection",
+        "description": "Inclure ou exclure des articles selon les critères du protocole."
+      },
+      "qualityAssessment": {
+        "label": "Évaluation de la qualité",
+        "description": "Évaluer la qualité méthodologique des études incluses."
+      },
+      "dataExtraction": {
+        "label": "Extraction de données",
+        "description": "Extraire des données structurées de chaque étude primaire."
+      },
+      "reporting": {
+        "label": "Rapports",
+        "description": "Suivre les statistiques et la progression globale de la revue."
+      }
+    }
+  }
+}

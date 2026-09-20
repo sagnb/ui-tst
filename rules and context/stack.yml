@@ -1,0 +1,48 @@
+schema_version: 1
+
+project_stack:
+  frontend:
+    framework: Next.js
+    routing: App Router
+    ui_library: React
+    language: TypeScript
+
+  styling:
+    preferred: Tailwind CSS
+    alternative:
+      name: Bootstrap
+      use_when: "Continuity with the existing Bootstrap interface is required."
+
+  backend:
+    framework: Hono
+    language: TypeScript
+    role: HTTP API
+
+  database:
+    engine: PostgreSQL
+    orm: Prisma
+    schema_strategy:
+      - control
+      - project
+
+  background_jobs:
+    status: undecided
+    options:
+      - pg-boss
+      - BullMQ
+
+  validation:
+    library: Zod
+
+  testing:
+    unit_and_integration: Vitest
+    end_to_end: Playwright
+
+  package_management:
+    manager: pnpm
+    workspace_strategy: pnpm workspaces
+
+  runtime:
+    local: Docker Compose
+    development: Docker Compose
+    test: Docker Compose

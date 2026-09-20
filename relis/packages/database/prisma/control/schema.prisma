@@ -1,0 +1,13 @@
+// Minimal control-database schema. Intentionally has no models: this is
+// scaffolding for the migration entry point (see ../../src/migrate.ts),
+// not a domain data model. Domain tables belong to their own backlog task,
+// not this one — see relis/packages/database/README.md.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}

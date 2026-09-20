@@ -1,0 +1,22 @@
+{
+  "name": "relis",
+  "private": true,
+  "version": "0.0.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "pnpm@9.15.9",
+  "scripts": {
+    "dev": "pnpm -r --parallel run dev",
+    "build": "pnpm -r run build",
+    "typecheck": "pnpm -r run typecheck",
+    "test": "pnpm -r run test",
+    "lint": "pnpm -r run lint",
+    "check:env": "pnpm --filter @relis/config run check:env",
+    "migrate": "pnpm --filter @relis/database run migrate",
+    "deploy": "pnpm --filter @relis/tooling run deploy"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}
